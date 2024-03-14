@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+ 
+<body>
+
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+               <a href="#">Portafolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                   <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                   <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li> 
+                   <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarocultarmenu()">
+               <i class="fa-solid fa-bars"></i>
+           </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img"> 
+               <img src="imagenes/fotos.png" alt="">
+            </div>
+            <h1></h1>
+            <h2>Ingeniero de Software</h2>
+            <div class="redes">
+
+                <a href="https://github.com/Riscanevo"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/EDUARDO46257100?t=L65pJUC59b7tqakoNam3Bw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/eduardo__r16?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>  
+
+    <!--seccion sobre mi-->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Freddy Eduardo Riscanevo.</span> Actualmente soy estudiante de Ingenieria de Software en la universidad FESC, mi pasión por la tecnologia y el desarrollo de software ha sido el motor impulsor de mi carrera académica. A lo largo de mis estudios, he adquirido un sólido conocimiento teórico y práctico en áreas clave de desarrollo. Siempre estoy ansioso por mantenerme actualizado sobre las últimas tendencias tecnológicas y explorar nuevas herramientas y metodologias que puedan mejorar mi capacidad para desarrollar soluciones innovadoras y de alta calidad.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            20-04-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3115381407
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            fredyriscanevo1971@gmail.com
+                        </li>
+                    </ul>
+                </div>  
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <section>
+           <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder=" Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="imagenes/ubi.png.jpeg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                cúcuta-Norte de Santander, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3144087883 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: fredyriscanevo1971@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+            
+       
+       
